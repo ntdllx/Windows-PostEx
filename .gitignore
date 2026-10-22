@@ -1,0 +1,34 @@
+# build outputs
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+
+# development-only verification corpus (not distributed)
+lab/
+
+# development-only build scripts and design notes (kept locally)
+Execution/build.bat
+Execution/verify.bat
+Execution/_vcenv.bat
+Execution/tools/
+Execution/*/SPEC.md
+
+# local notes and drafts (not part of the product)
+NOTES.md
+README_.txt
+
+# runtime artifacts
+*.marker
+*.bin
+
+# editor
+.vs/
+.vscode/
+*.user
